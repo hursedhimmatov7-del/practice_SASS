@@ -5,8 +5,8 @@ $mainColor: #217BF4;
     padding: 0;
     font-family: sans-serif;
 }
-@mixin auto{
-    max-width: 1200px;
+@mixin auto ( $width){
+    max-width: $width;
     margin: 100px auto;
     padding: 50px 0px;
 }
@@ -176,4 +176,50 @@ font-weight: bolder;
     @include buttons();
    }
 }
+}
+.sec4{
+    @include auto(100%);
+background-image: linear-gradient(to bottom , white , #F2F7FE);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    .text4{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p:first-child{
+            color: $mainColor;
+        }
+        p{
+            color: #787777;
+        }
+    }
+    .flexbox4{
+        max-width: 1200px;
+        margin: auto;
+        gap: 25px;
+        display: flex;
+
+        flex-wrap: wrap;
+        .box{
+            border-radius: 10px;
+            background-color: white;
+            height: 200px;
+            width:43% ;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.412);
+            display: flex;
+            align-items: center;
+            padding-left: 5%;
+            .gittext{
+                display:flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+       
+    }
+
 }

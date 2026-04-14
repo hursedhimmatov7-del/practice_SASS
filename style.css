@@ -186,4 +186,49 @@ header input {
   border: none;
   border-radius: 10px;
   color: white;
+}
+
+.sec4 {
+  max-width: 100%;
+  margin: 100px auto;
+  padding: 50px 0px;
+  background-image: linear-gradient(to bottom, white, #F2F7FE);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.sec4 .text4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec4 .text4 p:first-child {
+  color: #217BF4;
+}
+.sec4 .text4 p {
+  color: #787777;
+}
+.sec4 .flexbox4 {
+  max-width: 1200px;
+  margin: auto;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec4 .flexbox4 .box {
+  border-radius: 10px;
+  background-color: white;
+  height: 200px;
+  width: 43%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.412);
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+.sec4 .flexbox4 .box .gittext {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
