@@ -1,0 +1,77 @@
+$mainColor: #217BF4;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@mixin container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@mixin buttons{
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: $mainColor;
+    border: none;
+    border-radius: 10px;
+    color: white
+}
+
+header{
+    @include container();
+    div{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        nav{
+            display: flex;
+            gap: 20px;
+        }
+    }
+    input{
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.section1{
+    @include container();
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        h1{
+            font-size: 55px;
+        }
+        p{
+            font-size: 22px;
+            color: gray;
+        }
+        button{
+            @include buttons();
+            background-color: #E9F2FE;
+            color: $mainColor;
+        }
+        div{
+            button{
+                @include buttons;
+            }
+            button:last-child{
+                @include buttons;
+                border: 1px solid $mainColor;
+                color: $mainColor;
+                background-color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+header div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+header div nav {
+  display: flex;
+  gap: 20px;
+}
+header input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section1 aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.section1 aside h1 {
+  font-size: 55px;
+}
+.section1 aside p {
+  font-size: 22px;
+  color: gray;
+}
+.section1 aside button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #E9F2FE;
+  color: #217BF4;
+}
+.section1 aside div button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.section1 aside div button:last-child {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #217BF4;
+  color: #217BF4;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
