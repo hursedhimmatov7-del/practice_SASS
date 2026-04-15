@@ -289,4 +289,55 @@ header input {
 .sec5 .img5 .imgs5 .m1 {
   position: absolute;
   top: 10%;
+}
+
+.sec6 {
+  position: relative;
+  background-color: #E5F0FD;
+  width: 100%;
+  padding: 100px 0px;
+}
+.sec6 img {
+  right: 5%;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+}
+.sec6 .text6 {
+  width: 30%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 10%;
+}
+.sec6 .text6 p:first-child {
+  color: #217BF4;
+}
+.sec6 .text6 h1 {
+  font-size: 50px;
+}
+.sec6 .text6 .butts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sec6 .text6 .butts .btn1, .sec6 .text6 .butts .btn2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.sec6 .text6 .butts .btn1 i, .sec6 .text6 .butts .btn2 i {
+  font-size: 25px;
+}
+.sec6 .text6 .butts .btn1 {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}
+.sec6 .text6 .butts .btn2 {
+  background-color: #29284E;
+  color: white;
+  padding: 10px 20px;
 }/*# sourceMappingURL=style.css.map */
