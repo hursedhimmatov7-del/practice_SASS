@@ -70,4 +70,35 @@ header{
         }
     }
 }
+.sec1{
+    max-width: 1400px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    .div1{
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        .vs1{
+            background-color: #D1F4F9;
+            background-image: url(Backgroun.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        .divs1{
+            width: 23%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 5%;
+        }
+    }
+}
 
