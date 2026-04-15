@@ -101,4 +101,69 @@ header{
         }
     }
 }
+.sec2{
+    max-width: 1400px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        h1{
+            font-size: 40px;
+        }
+        button{
+            color: $maincolor;
+            background: none;
+            border: 2px solid $maincolor;
+            padding: 10px  30px ;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+    }
+    .img2{
+            width: 35% !important;
+        }
+}
+.sec3{
+    width: 100%;
+    margin: 100px 0px;
+    color: white;
+    background-image: url(Backgroundg.png);
+    padding: 110px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px ;
+    text-align: center;
+}
+.sec4{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    .div4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        .divs4{
+width: 32%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 25px;
+        }
+    }
+}
+
+
 
