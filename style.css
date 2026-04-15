@@ -198,7 +198,7 @@ header input {
   align-items: center;
   gap: 40px;
 }
-.sec4 .text4 {
+.sec4 .text4, .sec4 .sec77 .sec7 .text4, .sec77 .sec7 .sec4 .text4 {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ header input {
 .sec4 .text4 p:first-child {
   color: #217BF4;
 }
-.sec4 .text4 p {
+.sec4 .text4 p, .sec4 .sec77 .sec7 .text4 p, .sec77 .sec7 .sec4 .text4 p {
   color: #787777;
 }
 .sec4 .flexbox4 {
@@ -340,4 +340,109 @@ header input {
   background-color: #29284E;
   color: white;
   padding: 10px 20px;
+}
+
+.sec77 {
+  margin: auto;
+  max-width: 1300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sec77 .d1 {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+.sec77 .d2 {
+  position: absolute;
+  right: 3%;
+  bottom: 36%;
+}
+.sec77 .sec7 {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 50px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.sec77 .sec7 .text4 {
+  text-align: center;
+}
+.sec77 .sec7 .text4 p {
+  color: #217BF4;
+  padding-bottom: 20px;
+}
+.sec77 .sec7 .div7 {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.sec77 .sec7 .div7 .divs7 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.sec77 .sec7 .div7 .divs7 .text7 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  margin: 50px 0px 0px;
+  background-color: #2B2B39;
+}
+footer .foot {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+footer .foot .foots {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .foot .ts {
+  width: 25%;
+}
+footer .foot .ts div {
+  border-radius: 5px;
+  padding: 1px 5px;
+  border: 2px solid rgba(255, 255, 255, 0.567);
+}
+footer .foot .ts div input {
+  border: none;
+  color: white;
+  background-color: #2B2B39;
+  outline: none !important;
+  border-bottom: none;
+}
+footer .foot .ts div button {
+  border: none;
+  background-color: white;
+  color: #29284E;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+footer .last {
+  background-color: #20202D;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
