@@ -445,4 +445,19 @@ footer .last {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+a {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a .link {
+  padding: 20px 60px;
+  border: 3px dashed #217BF4;
+  color: #217BF4;
+  background: none;
+  border-radius: 10px;
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */

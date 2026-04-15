@@ -427,3 +427,17 @@ footer{
         justify-content: space-around;
     }
 }
+a{
+ padding: 100px 0px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    .link{
+    padding: 20px 60px;
+  border: 3px dashed $mainColor;
+  color:  $mainColor; 
+  background: none;
+  border-radius: 10px;
+        font-size: 35px;
+}
+}
